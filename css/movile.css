@@ -1,0 +1,120 @@
+@media screen and (max-width:600px)
+{
+    nav ul li a
+    {
+        font-size: 14px;
+    }
+
+    .principal h1
+    {
+        font-size: 15px;
+        margin-bottom: auto;
+        margin: 30px auto;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .productos
+    {
+        
+         padding: 0; 
+         display: inherit;
+         max-height: auto;
+
+      
+        
+        
+        
+    }
+    .producto
+    {
+         width: 60%;
+        padding: var(--space);
+        /* margin-top: auto; */
+        margin: 0  auto;
+        padding-top: 20px;
+        
+        
+        
+           
+    }
+    .producto .contenido-image
+     {
+         width: 30%;
+         max-width: 50px;
+         margin: var(--centrado);
+     
+     }
+
+     .producto .contenido h2
+     {
+         font-size: 14px;
+         margin-bottom: 10px;
+     }
+
+     .producto .contenido p
+     {
+         font-size: 9px;
+         padding: 0;
+     }
+
+     .producto .contenido .botones a
+
+     {
+        font-size: 12px;
+     }
+
+     .producto .contenido .botones 
+
+     {
+        margin: 20px auto;
+     }
+
+     .title-beneficios
+     {
+        font-size: 15px;
+     }
+
+     .principal .beneficios 
+     {
+        flex-direction:column;
+        flex-wrap: wrap;
+     }
+
+     .principal .beneficios .beneficio
+     {
+         width: 100%;
+     }
+     .principal .beneficios .beneficio .contenido p
+     {
+         padding-top:10px ;
+     }
+     .principal .beneficios .beneficio .contenido h3
+     {
+         font-size:13px ;
+     }
+
+     .title-menciones
+     {
+         font-size: 15px;
+     }
+    
+     .principal .menciones
+     {
+        display: inherit;
+       
+     }
+     .principal .menciones .mencion
+     {
+        width: 70%;
+        margin: 30px auto;
+        
+     }
+
+     footer h2
+     {
+        font-size: 14px;
+     }
+ 
+ 
+} 

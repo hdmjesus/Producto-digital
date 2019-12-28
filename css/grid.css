@@ -1,0 +1,83 @@
+.contenedor
+{
+    max-width: 900px;
+    margin: auto;
+   
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.colum-1
+{
+    width: 8.3333%;
+}
+.colum-2
+{
+    width: 16.6666%;
+}
+.colum-3
+{
+    width: 24.9999%;
+}
+.colum-4
+{
+    width: 33.3332%;
+}
+.colum-5
+{
+    width: 41.6665%;
+}
+.colum-6
+{
+    width: 49.9998%;
+}
+.colum-7
+{
+    width: 58.3331%;
+}
+.colum-8
+{
+    width: 66.6664%;
+}
+.colum-9
+{
+    width: 74.9997%;
+}
+.colum-10
+{
+    width: 83.3330%;
+}
+.colum-11
+{
+    width: 91.6663%;
+}
+.colum-12
+{
+    width: 99.9996%;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, 
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding: 10px;
+}
+
+@media screen and (max-width:900px)
+
+{
+.row
+{
+    display: inherit;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, 
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  width: 100%;
+}
+}
+/* contenedor>row>columna */
+

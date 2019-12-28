@@ -1,0 +1,76 @@
+/* ---------------Animaciones---------- */
+/* -------------------------Titulo de inicio-------- */
+.fadeIn
+
+{
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+
+}
+
+@keyframes fadeIn
+{
+ from{
+     opacity: 0;
+ }
+
+ to{
+     opacity: 1;
+ }
+}
+/* -------------------------Titulo de inicio-------- */
+
+/* -------------------------NMENU-------- */
+
+.fadeIndown
+
+{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeIndown;
+
+}
+
+@keyframes fadeIndown
+{
+    from{
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+
+}
+
+/* -------------------------NMENU-------- */
+
+/* -------------------------TARJETAS DE PRODUCTOS-------- */
+
+.fadeInup
+
+{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInup;
+
+}
+
+@keyframes fadeInup
+{
+    from{
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+
+}
+
+/* -------------------------TARJETAS DE PRODUCTOS-------- */
